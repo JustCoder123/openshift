@@ -1,3 +1,4 @@
+import os
 from flask import Flask
 
 app = Flask(__name__)
@@ -10,4 +11,4 @@ def hello_home():
 	return 'Welcome To Home Page'
 
 if __name__ == '__main__':
-   app.run()
+   app.run(host="0.0.0.0",port= 8080)
