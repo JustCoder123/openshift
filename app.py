@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-	return 'Hello World'
+	return 'Hello in the World of openshift by Jayesh '
 @app.route('/home')
 def hello_home():
 	return 'Welcome To Home Page'
